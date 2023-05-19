@@ -13,7 +13,7 @@
 // }
 // console.log(reversedSentence(sentence));
 
-let sentence = prompt("Give a sentence to reverse").split(" ");
+let sentence = prompt("Give a sentence to reverse").split("");
 function reversedSentence(a) {
   let newStr = "";
   for (let i = a.length - 1; i >= 0; i--) {
